@@ -5,14 +5,26 @@
   
 
   
-  <title>Hexo</title>
+  <title>微信跳一跳外挂 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="微信跳一跳外挂实现实现原理 把跳一跳的画面通过 WebDriverAgent 投到电脑端  通过鼠标点击起跳和落地点来计算距离  通过得到的距离乘以不同设备的时间系数得到按压时间  根据得到的按压时间调用 WebDriverAgent 函数模拟点击屏幕过程    注：本文方法仅适用 Mac+iOS，其他平台原理差不多。Android 可以用 abd 代替 WebDriverAgent，太懒了不想写">
+<meta name="keywords" content="python">
+<meta property="og:type" content="article">
+<meta property="og:title" content="微信跳一跳外挂">
+<meta property="og:url" content="http://yoursite.com/2018/01/11/微信跳一跳外挂/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="微信跳一跳外挂实现实现原理 把跳一跳的画面通过 WebDriverAgent 投到电脑端  通过鼠标点击起跳和落地点来计算距离  通过得到的距离乘以不同设备的时间系数得到按压时间  根据得到的按压时间调用 WebDriverAgent 函数模拟点击屏幕过程    注：本文方法仅适用 Mac+iOS，其他平台原理差不多。Android 可以用 abd 代替 WebDriverAgent，太懒了不想写">
+<meta property="og:image" content="http://yoursite.com/images/lib_sign0.png">
+<meta property="og:image" content="http://yoursite.com/images/lib_sign1.png">
+<meta property="og:image" content="http://yoursite.com/images/wechat_jump_build&run.png">
+<meta property="og:image" content="http://yoursite.com/images/WDA.jpeg">
+<meta property="og:image" content="http://yoursite.com/images/wechat_jump_result0.jpeg">
+<meta property="og:image" content="http://yoursite.com/images/wechat_jump_result1.jpeg">
+<meta property="og:updated_time" content="2018-01-11T08:21:04.512Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="微信跳一跳外挂">
+<meta name="twitter:description" content="微信跳一跳外挂实现实现原理 把跳一跳的画面通过 WebDriverAgent 投到电脑端  通过鼠标点击起跳和落地点来计算距离  通过得到的距离乘以不同设备的时间系数得到按压时间  根据得到的按压时间调用 WebDriverAgent 函数模拟点击屏幕过程    注：本文方法仅适用 Mac+iOS，其他平台原理差不多。Android 可以用 abd 代替 WebDriverAgent，太懒了不想写">
+<meta name="twitter:image" content="http://yoursite.com/images/lib_sign0.png">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -59,9 +71,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-微信跳一跳外挂" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-微信跳一跳外挂" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/01/11/微信跳一跳外挂/" class="article-date">
   <time datetime="2018-01-10T16:08:48.000Z" itemprop="datePublished">2018-01-11</time>
@@ -78,8 +88,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/01/11/微信跳一跳外挂/">微信跳一跳外挂</a>
+    <h1 class="article-title" itemprop="name">
+      微信跳一跳外挂
     </h1>
   
 
@@ -157,11 +167,9 @@
     </footer>
   </div>
   
-</article>
-
-
+    
   
-
+</article>
 
 </section>
         
